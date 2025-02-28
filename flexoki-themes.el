@@ -105,6 +105,9 @@
        (flexoki-themes-bg
 	(if (eq variant 'light)
 	    flexoki-colour-paper flexoki-colour-black))
+       (flexoki-themes-solaire-bg
+	(if (eq variant 'light)
+	    flexoki-colour-200 flexoki-colour-800))
        (flexoki-themes-faint-bg
 	(if (eq variant 'light)
 	    flexoki-colour-100 flexoki-colour-900))
@@ -819,7 +822,10 @@
      `(web-mode-html-attr-name-face ((t (:foreground ,flexoki-themes-orange))))
      `(web-mode-json-key-face
        ((t (:inherit font-lock-keyword-face :weight light))))
-     `(web-mode-json-context-face ((t (:inherit font-lock-keyword-face)))))))
+     `(web-mode-json-context-face ((t (:inherit font-lock-keyword-face))))
+
+;;;;;; solaire-mode
+     `(solaire-default-face ((t (:background ,flexoki-themes-solaire-bg)))))))
 
 ;;;###autoload
 (and load-file-name
