@@ -23,6 +23,6 @@ changes made along with a screenshot showing the mode in action.
 
 ** Screenshots
 #+caption: Flexoki dark variant
-[[https://github.com/crmsnbleyd/flexoki-emacs-theme/blob/trunk/screenshots/flexoki-dark.png]]
+[[https://codeberg.org/crmsnbleyd/flexoki-emacs-theme/raw/branch/trunk/screenshots/flexoki-dark.png]]
 #+caption: Flexoki light variant
-[[https://github.com/crmsnbleyd/flexoki-emacs-theme/blob/trunk/screenshots/flexoki-light.png]]
+[[https://codeberg.org/crmsnbleyd/flexoki-emacs-theme/raw/branch/trunk/screenshots/flexoki-light.png]]
