@@ -534,6 +534,9 @@
 ;;;;;; General Completion
      `(completions-annotations
        ((t (:foreground ,flexoki-themes-meek))))
+     `(completions-common-part
+       ((t (:foreground ,flexoki-themes-blue
+            :weight bold))))
 
 ;;;;;; Company-mode
      `(company-scrollbar-bg
